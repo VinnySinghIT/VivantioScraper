@@ -50,7 +50,7 @@ Windows only but script could be modified for other operating systems.
    - A Chrome window will appear.  
    - Log in to Vivantio (with MFA as needed).  
    - Make sure you’re in the classic UI (no `flex` in the URL).  
-   - Once the script detects you’re logged in, it will begin scraping each article listed in `Articles.csv`.
+   - Once the script detects you’re logged in, and gone to https://contoso.vivantio.com/Article/Index/, it will begin scraping each article listed in `Articles.csv`.
 
 ## 4. Output
 
