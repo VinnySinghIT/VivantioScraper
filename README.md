@@ -75,6 +75,12 @@ VivantioKB/
 
 ## 5. Notes & Performance
 
+Script & CSV: C:\PythonScripts\VivantioScrape\scrape_vivantio.py and Articles.csv
+Output Root: C:\PythonScripts\VivantioScrape\VivantioKB
+HTML & Screenshots: VivantioKB\article_{ID}\article_{ID}.html (and article_{ID}.png)
+Images: VivantioKB\article_{ID}\img\img_X.png
+Once the script finishes, you’ll find one folder per article with the HTML, a screenshot, and an img\ subfolder for any inline images.
+
 - **Time**: Scraping ~500 articles can take about 1 hour, depending on your connection speed and Vivantio’s page load times.  
 - **Stability**: If Flex is not fully disabled or if your session expires mid-run, you may see timeouts. Just re-run the script and ensure you’re in the classic UI.  
 - **Cookies & Authentication**: The script uses Selenium cookies to download images with `requests`. If any images are still HTML after download, verify your subdomain and login session.  
