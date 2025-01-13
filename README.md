@@ -1,5 +1,7 @@
 # Vivantio Knowledge Base Scraper
 
+Vivantio, an ITSM platform makes it difficult to export your knowledgebase articles, especially with inline pictures. This python script aims to solve that problem.
+
 **VivantioScrape** is a Python script that logs in to your **classic Vivantio** instance (non-Flex UI) via Chrome/Selenium, navigates to each article, and saves:
 - **HTML** of the article (including images),  
 - **Screenshots** of each article,  
