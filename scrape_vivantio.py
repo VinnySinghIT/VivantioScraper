@@ -150,7 +150,7 @@ def main():
     print("\nAll done! Check the VivantioKB folder for results.")
 
 # -----------------------------------------------------------------------------
-# 4) The `scrape_article` function (similar to your existing logic)
+# 4) The `scrape_article` function
 # -----------------------------------------------------------------------------
 def scrape_article(driver, requests_session, article_id, article_title):
     article_url = BASE_URL_TEMPLATE.format(article_id)
