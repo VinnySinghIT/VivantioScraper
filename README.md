@@ -40,7 +40,7 @@ Windows only but script could be modified for other operating systems.
 ## 3. Running the Script
 
 1. **Open a terminal** (Command Prompt or PowerShell on Windows).  
-2. **Navigate** to the script’s directory: typically C:\PythonScriots\VivantioScrape
+2. **Navigate** to the script’s directory: typically C:\PythonScripts\VivantioScrape
    ```bash
    cd path\to\VivantioScrape
    ```
