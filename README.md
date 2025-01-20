@@ -40,7 +40,7 @@ Windows only but script could be modified for other operating systems.
 ## 3. Running the Script
 
 1. **Open a terminal** (Command Prompt or PowerShell on Windows).  
-2. **Navigate** to the script’s directory:
+2. **Navigate** to the script’s directory: typically C:\PythonScriots\VivantioScrape
    ```bash
    cd path\to\VivantioScrape
    ```
@@ -52,7 +52,7 @@ Windows only but script could be modified for other operating systems.
    - A Chrome window will appear.  
    - Log in to Vivantio (with MFA as needed).  
    - Make sure you’re in the classic UI (no `flex` in the URL).  
-   - Once the script detects you’re logged in, and gone to https://contoso.vivantio.com/Article/Index/, it will begin scraping each article listed in `Articles.csv`.
+   - Once the script detects you’re logged in, and gone to https://contoso.vivantio.com/Article/Index/, it will begin scraping each article listed in `Articles.csv` Note: Your url may have /# and/or trailing numbers in the URL, it must be edited to the format shown.
 
 ## 4. Output
 
